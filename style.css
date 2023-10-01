@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'Radley Italic';
+    src: url('Radley/Radley-Italic.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'Radley';
+    src: url('Radley/Radley-Regular.ttf') format('truetype')
+}
+
+
+@font-face {
+    font-family: 'Carlito';
+    src: url(Carlito/Carlito-Regular.ttf) format('truetype')
+}
+
+/*homepage styling*/ 
+
+
+body {
+    background-color: #F4F1E8;
+    font-family: 'Carlito', sans-serif;
+}
+
+#nameTitle{
+    color: #9B4819;
+    font-size: 7.75em;
+    font-family: 'Radley Italic', sans-serif;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 1.3em;
+    margin-bottom: 0%;
+}
+
+.desc{
+    font-size: 2em;
+    text-align: center;
+    font-weight: normal;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+#socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#gitHub {
+    width: 130px;
+    height: auto;
+}
+
+#insta{
+    width: 130px;
+    height: auto;
+}
+
+#linkedin{
+    width: 130px;
+    height: auto;
+}
+
+/*nav bar styling*/ 
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #F4F1E8;
+    padding: 5px 0;
+}
+
+nav a {
+    color: #9B4819;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 2em;
+}
+
+
+li a:hover {
+    background-color:#bda36f;
+    transition: 0.5s;/
+  }
+  
+/*style project gallery*/
+
+#hereAreSome, #scribble, #project-gallery-title {
+    margin: 0;
+    padding: 0;
+}
+  
+.project-gallery {
+    color: #9B4819;
+    font-family: 'Radley', sans-serif;
+    font-size: 1.8em;
+    font-weight: thin;
+    text-align: center;
+}
+
+#scribble{
+    width: 150px;
+    height: auto;
+    display: inline-block;
+}
+
+#project-gallery-title{
+    font-size: 4em;
+    margin-top: 1.5em;
+    font-family: 'Radley Italic', sans-serif;
+}
+
+#hereAreSome{
+    font-family:'Carlito', sans-serif;
+    color: black;
+    font-size: 1em;
+}
+
+
+.project {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px; 
+    font-family: 'Carlito', sans-serif;
+    color: black
+}
+
+.proj-img {
+    max-width: 350px; /* Replace with an appropriate value */
+    max-height: 350px; /* Replace with an appropriate value */
+    align-self: center;
+}
+
+.proj-title{
+    font-family:'Radley', sans-serif;
+    font-size: 1.8em;
+    color: #314028;
+    font-weight: bold;
+}
+
+.project-container{
+    text-align: center;
+}
+
+.proj-title:hover { 
+    color: #42622f;
+    transition: 0.5s;
+ } 
+
+ .proj-desc{
+    color: black;
+    margin-top: 0;
+    font-family:'Carlito', sans-serif;
+    padding-top: 15px;
+    font-size: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+ }
+
+
+/* experience styling */ 
+
+#experience-title{
+    font-size: 4em;
+    margin-top: 1em;
+    font-family: 'Radley Italic', sans-serif;
+    margin-bottom: 40px;
+}
+
+.experience-gallery{
+    color: #9B4819;
+    font-family: 'Radley', sans-serif;
+    font-size: 2em;
+    font-weight: thin;
+    text-align: center;
+}
+
+.exp-desc{
+    color: black;
+    margin-top: 0;
+    font-family:'Carlito', sans-serif;
+    padding-top: 15px;
+    font-size: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.experience-individual{
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+
