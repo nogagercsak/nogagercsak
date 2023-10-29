@@ -64,6 +64,13 @@ body {
 
 /*nav bar styling*/ 
 
+ul {
+    list-style-type: none;
+    background-color: #b19968;
+    overflow: none;
+    padding: 1em;
+  }
+
 nav {
     display: flex;
     justify-content: center;
