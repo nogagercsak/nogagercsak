@@ -24,7 +24,7 @@ body {
 
 #nameTitle{
     color: #9B4819;
-    font-size: 7.75em;
+    font-size: 8em;
     font-family: 'Radley Italic', sans-serif;
     text-align: center;
     font-weight: normal;
@@ -36,8 +36,8 @@ body {
     font-size: 2em;
     text-align: center;
     font-weight: normal;
-    padding-left: 5em;
-    padding-right: 5em;
+    padding-left: 7%;
+    padding-right: 7%;
 }
 
 #socials{
@@ -63,13 +63,14 @@ body {
 }
 
 /*nav bar styling*/ 
+body {
+    margin: 0;
+    padding: 0;
+}
 
-ul {
-    list-style-type: none;
-    background-color: #00ffff;
-    overflow: none;
-    padding: 1em;
-  }
+.navbar {
+    background-color: #e0dbcd
+}
 
 nav {
     display: flex;
@@ -79,7 +80,7 @@ nav {
 }
 
 nav a {
-    color: #9B4819;
+    color: #314028;
     text-decoration: none;
     margin: 0 20px;
     font-size: 2em;
