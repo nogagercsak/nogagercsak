@@ -18,12 +18,12 @@
 
 
 body {
-    background-color: #F4F1E8;
+    background-color: #FFFBF5;
     font-family: 'Carlito', sans-serif;
 }
 
 #nameTitle{
-    color: #9B4819;
+    color: #7743DB;
     font-size: 8em;
     font-family: 'Radley Italic', sans-serif;
     text-align: center;
@@ -33,7 +33,7 @@ body {
 }
 
 .desc{
-    font-size: 2em;
+    font-size: 1.6em;
     text-align: center;
     font-weight: normal;
     padding-left: 7%;
@@ -69,28 +69,33 @@ body {
 }
 
 .navbar {
-    background-color: #e0dbcd
+    background-color: #F7EFE5
 }
 
 nav {
     display: flex;
     justify-content: center;
     background-color: #F4F1E8;
-    padding: 5px 0;
+    padding: 10px 0;
 }
 
 nav a {
-    color: #314028;
+    color: #8E7AB5;
     text-decoration: none;
     margin: 0 20px;
     font-size: 2em;
+    padding: 10px 20px; 
+    border-radius: 10px;
+    transition: padding 0.5s; 
 }
 
 
-li a:hover {
-    background-color:#bda36f;
-    transition: 0.5s;/
-  }
+nav a:hover {
+    background-color:#e9e5d9;
+    transition: 0.5s;
+    padding: 15px 25px; 
+}
+
   
 /*style project gallery*/
 
@@ -100,7 +105,7 @@ li a:hover {
 }
   
 .project-gallery {
-    color: #9B4819;
+    color: #7743DB;
     font-family: 'Radley', sans-serif;
     font-size: 1.8em;
     font-weight: thin;
@@ -143,7 +148,7 @@ li a:hover {
 .proj-title{
     font-family:'Radley', sans-serif;
     font-size: 1.8em;
-    color: #314028;
+    color: rgb(150, 121, 204);
     font-weight: bold;
 }
 
@@ -152,7 +157,7 @@ li a:hover {
 }
 
 .proj-title:hover { 
-    color: #42622f;
+    color: #C3ACD0;
     transition: 0.5s;
  } 
 
@@ -170,6 +175,7 @@ li a:hover {
 /* experience styling */ 
 
 #experience-title{
+    color:#7743DB;
     font-size: 4em;
     margin-top: 1em;
     font-family: 'Radley Italic', sans-serif;
@@ -177,7 +183,7 @@ li a:hover {
 }
 
 .experience-gallery{
-    color: #9B4819;
+    color: rgb(150, 121, 204);
     font-family: 'Radley', sans-serif;
     font-size: 2em;
     font-weight: thin;
@@ -202,7 +208,7 @@ li a:hover {
 /* Bottom styling */
 
 .copyright{
-    background-color:#e0dbcd;
+    background-color:#F4F1E8;
     text-align: center;
     padding: 10px;
     color: black;
