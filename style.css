@@ -24,23 +24,24 @@ body {
 
 #nameTitle{
     color: #7743DB;
-    font-size: 8em;
+    font-size: 500%;
     font-family: 'Radley Italic', sans-serif;
     text-align: center;
     font-weight: normal;
-    margin-top: 1.3em;
+    margin-top: 10%;
     margin-bottom: 0%;
 }
 
 .desc{
-    font-size: 1.6em;
     text-align: center;
-    font-weight: normal;
-    padding-left: 7%;
-    padding-right: 7%;
+    font-size: 150%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0%;
 }
 
 #socials{
+    padding-top: 3%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,7 +84,7 @@ nav a {
     color: #8E7AB5;
     text-decoration: none;
     margin: 0 20px;
-    font-size: 2em;
+    font-size: 180%;
     padding: 10px 20px; 
     border-radius: 10px;
     transition: padding 0.5s; 
@@ -105,29 +106,37 @@ nav a:hover {
 }
   
 .project-gallery {
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-top: 30px;
+    margin-bottom: 50px;
     color: #7743DB;
     font-family: 'Radley', sans-serif;
-    font-size: 1.8em;
     font-weight: thin;
-    text-align: center;
+    text-align: left;
 }
 
 #scribble{
     width: 150px;
     height: auto;
-    display: inline-block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 #project-gallery-title{
-    font-size: 4em;
-    margin-top: 1.5em;
+    font-size: 4rem;
+    margin-top: 1.5rem;
     font-family: 'Radley Italic', sans-serif;
+    text-align: center;
 }
 
 #hereAreSome{
     font-family:'Carlito', sans-serif;
     color: black;
-    font-size: 1em;
+    text-align: center;
+    font-size: 130%;
 }
 
 
@@ -140,20 +149,27 @@ nav a:hover {
 }
 
 .proj-img {
-    max-width: 350px; /* Replace with an appropriate value */
-    max-height: 350px; /* Replace with an appropriate value */
+    max-width: 350px;
+    max-height: 350px;
     align-self: center;
 }
 
-.proj-title{
+.section-title{
     font-family:'Radley', sans-serif;
-    font-size: 1.8em;
+    font-size: 400%;
     color: rgb(150, 121, 204);
     font-weight: bold;
 }
 
 .project-container{
-    text-align: center;
+    text-align: left;
+}
+
+.proj-title {
+    font-family: 'Radley', sans-serif;
+    color: rgb(150, 121, 204);
+    font-weight: bold;
+    font-size: 200%;
 }
 
 .proj-title:hover { 
@@ -166,47 +182,47 @@ nav a:hover {
     margin-top: 0;
     font-family:'Carlito', sans-serif;
     padding-top: 15px;
-    font-size: 25px;
-    margin-left: 15%;
-    margin-right: 15%;
+    font-size: 1rem;
  }
 
- #salus{
-    font-size: 23.8px;
- }
 
 
 /* experience styling */ 
 
 #experience-title{
     color:#7743DB;
-    font-size: 4em;
-    margin-top: 1em;
+    font-size: 4rem;
+    margin-top: 1rem;
     font-family: 'Radley Italic', sans-serif;
     margin-bottom: 40px;
+    text-align: center;
 }
 
 .experience-gallery{
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-top: 30px;
+    margin-bottom: 50px;
     color: rgb(150, 121, 204);
     font-family: 'Radley', sans-serif;
-    font-size: 2em;
     font-weight: thin;
-    text-align: center;
+    text-align: left;
 }
 
 .exp-desc{
     color: black;
-    margin-top: 0;
     font-family:'Carlito', sans-serif;
     padding-top: 15px;
-    font-size: 25px;
-    margin-left: 15%;
-    margin-right: 15%;
+    font-size: 1rem;
 }
 
 .experience-individual{
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: normal;
+}
+
+.experience-individual b {
+    font-size: 150%;
 }
 
 /* Bottom styling */
