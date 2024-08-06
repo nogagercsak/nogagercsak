@@ -1,0 +1,244 @@
+@font-face {
+    font-family: 'Radley Italic';
+    src: url('Radley/Radley-Italic.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'Radley';
+    src: url('Radley/Radley-Regular.ttf') format('truetype')
+}
+
+
+@font-face {
+    font-family: 'Carlito';
+    src: url(Carlito/Carlito-Regular.ttf) format('truetype')
+}
+
+/*homepage styling*/
+
+
+body {
+    background-color: #181717;
+    font-family: 'Carlito', sans-serif;
+    color: white;
+}
+
+#nameTitle {
+    font-size: 500%;
+    font-family: 'Radley', sans-serif;
+    font-weight: normal;
+    margin: 2%;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    max-height: 100%;
+    /* Full viewport height */
+    max-height: 100%;
+    /* Ensure it doesn't overflow */
+    overflow: hidden;
+    /* Hide overflow if any */
+}
+
+.home-bg {
+    width: 100%;
+    height: auto;
+    /* Ensures image maintains aspect ratio */
+    display: block;
+    object-fit: cover;
+    /* Ensures the image covers the entire container */
+}
+
+.desc,
+.desc2 {
+    position: absolute;
+    left: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    padding-left: 20px;
+    padding-right: 30%;
+    text-align: left;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.desc {
+    top: 10px;
+}
+
+.desc2 {
+    top: 130px;
+}
+
+@media (max-width: 1000px) {
+    .home-bg {
+        height: 450px;
+        object-fit: fill;
+    }
+
+    .desc,
+    .desc2 {
+        padding-right: 5%;
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 800px) {
+    .home-bg {
+        height: 400px;
+        object-fit: fill;
+    }
+
+    .desc,
+    .desc2 {
+        padding-right: 5%;
+        font-size: 30px;
+    }
+}
+
+/*nav bar styling*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    display: flex;
+    justify-content: right;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 100%;
+    padding: 2px;
+    border-radius: 10px;
+    transition: padding 0.5s;
+}
+
+
+nav a:hover {
+    color: #aeaba2;
+    transition: 0.5s;
+    padding: 15px 25px;
+}
+
+
+/*style project gallery*/
+
+#hereAreSome,
+#scribble,
+#project-gallery-title {
+    margin: 0;
+    padding: 0;
+}
+
+.project-gallery {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: #ffffff;
+    font-family: 'Radley', sans-serif;
+    font-weight: thin;
+    text-align: left;
+}
+
+
+#project-gallery-title {
+    font-size: 500%;
+    font-family: 'Radley Italic', sans-serif;
+    text-align: center;
+}
+
+
+.project {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    font-family: 'Carlito', sans-serif;
+    color: black
+}
+
+.proj-img {
+    max-width: 350px;
+    max-height: 350px;
+    align-self: center;
+}
+
+.section-title {
+    font-family: 'Radley', sans-serif;
+    font-size: 400%;
+    color: rgb(150, 121, 204);
+    font-weight: bold;
+}
+
+
+
+.proj-title {
+    font-family: 'Radley', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 300%;
+}
+
+.proj-title:hover {
+    color: #C3ACD0;
+    transition: 0.5s;
+}
+
+.proj-desc {
+    color: black;
+    margin-top: 0;
+    font-family: 'Carlito', sans-serif;
+    padding-top: 15px;
+    font-size: 1rem;
+}
+
+
+
+/* experience styling */
+
+#experience-title {
+    font-size: 500%;
+    font-family: 'Radley', sans-serif;
+    font-weight: normal;
+    margin: 2%;
+}
+
+.experience-gallery {
+    color: rgb(255, 255, 255);
+    font-family: 'Radley', sans-serif;
+    font-weight: thin;
+    text-align: left;
+}
+
+.exp-desc {
+    color: rgb(255, 255, 255);
+    font-family: 'Carlito', sans-serif;
+    padding-top: 15px;
+    font-size: 1rem;
+}
+
+.experience-individual {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.experience-individual b {
+    font-size: 150%;
+}
+
+/* Bottom styling */
+
+.copyright {
+    background-color: #F4F1E8;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    font-size: 22px;
+}
