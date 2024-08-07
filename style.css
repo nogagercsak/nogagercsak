@@ -24,6 +24,18 @@
     src: url(Itim/Itim-Regular.ttf) format('truetype')
 }
 
+@media (max-width: 1000px) {
+    #nameTitle, #project-gallery-title {
+        font-size: 300%; 
+    }
+    #experience-title {
+        font-size: 300%;
+        text-align: left;
+
+    }
+
+}
+
 /*homepage styling*/ 
 
 
@@ -81,7 +93,7 @@ body {
 }
 
 .navbar {
-    background-color: #181e29
+    background-color: #181e29;
 }
 
 nav {
@@ -89,6 +101,7 @@ nav {
     justify-content: center;
     background-color: #F4F1E8;
     padding: 10px 0;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
 }
 
 nav a {
@@ -101,13 +114,25 @@ nav a {
     transition: padding 0.5s; 
 }
 
-
 nav a:hover {
-    background-color:#f5f1ea;
+    background-color: #f5f1ea;
     color: #181e29;
     transition: 0.5s;
     padding: 15px 25px; 
 }
+
+/* Media Query for mobile screens */
+@media (max-width: 768px) {
+    nav {
+        justify-content: space-around; /* Adjust spacing for mobile */
+    }
+    nav a {
+        font-size: 150%; /* Reduce font size */
+        margin: 10px 0; /* Adjust margin */
+        padding: 10px; /* Adjust padding */
+    }
+}
+
 
   
 /*style project gallery*/
@@ -118,19 +143,20 @@ nav a:hover {
 }
   
 .project-gallery {
-    margin-left: 110px;
-    margin-right: 110px;
+    margin-left: 70px;
+    margin-right: 70px;
     margin-top: 30px;
     margin-bottom: 50px;
     color: #f5f1ea;
-    font-family: 'Radley', sans-serif;
+    font-family: 'Carlito', sans-serif;
     font-weight: thin;
     text-align: left;
 }
 
 
+
 #project-gallery-title{
-    font-size: 4rem;
+    font-size: 80px;
     margin-top: 1.5rem;
     font-family: 'Play', sans-serif;
     text-align: center;
@@ -152,7 +178,7 @@ nav a:hover {
 }
 
 .section-title{
-    font-family:'Radley', sans-serif;
+    font-family:'Carlito', sans-serif;
     font-size: 400%;
     color: #f5f1ea;
     font-weight: bold;
@@ -163,23 +189,22 @@ nav a:hover {
 }
 
 .proj-title {
-    font-family: 'Radley', sans-serif;
+    font-family: 'Carlito', sans-serif;
     color: #f5f1ea;
     font-weight: bold;
-    font-size: 200%;
+    font-size:150%;
 }
 
 .proj-title:hover { 
-    color: #C3ACD0;
+    color: #8c8092;
     transition: 0.5s;
  } 
 
  .proj-desc{
     color: #f5f1ea;
-    margin-top: 0;
     font-family:'Carlito', sans-serif;
     padding-top: 15px;
-    font-size: 1rem;
+    font-size: 1.3rem;
  }
 
 
@@ -188,16 +213,18 @@ nav a:hover {
 
 #experience-title{
     color:#f5f1ea;
-    font-size: 4rem;
+    font-size: 80px;
     margin-top: 1rem;
     font-family: 'Play', sans-serif;
     margin-bottom: 40px;
     text-align: center;
 }
 
+
+
 .experience-gallery{
-    margin-left: 110px;
-    margin-right: 110px;
+    margin-left: 70px;
+    margin-right: 70px;
     margin-top: 30px;
     margin-bottom: 50px;
     color: #f5f1ea;
@@ -210,7 +237,7 @@ nav a:hover {
     color: #f5f1ea;
     font-family:'Carlito', sans-serif;
     padding-top: 15px;
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 .experience-individual{
