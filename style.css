@@ -40,7 +40,7 @@ body {
     text-align: center;
     font-weight: normal;
     margin-top: 10%;
-    margin-bottom: 0%;
+    margin-bottom: 4%;
 }
 
 .desc{
@@ -83,32 +83,34 @@ body {
 
 .navbar {
     background-color: #181e29;
+    padding: 10px 0;
 }
 
-nav {
+.navbar-content {
     display: flex;
     justify-content: center;
-    background-color: #F4F1E8;
-    padding: 10px 0;
-    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    max-width: 80%; 
+    margin: 0 auto;
 }
 
-nav a {
+.navbar-content a {
     color: #f5f1ea;
     text-decoration: none;
-    margin: 0 20px;
+    margin: 0 20px;  
     font-size: 180%;
     padding: 10px 20px; 
     border-radius: 30px;
     transition: padding 0.5s; 
 }
 
-nav a:hover {
+.navbar-content a:hover {
     background-color: #f5f1ea;
     color: #181e29;
     transition: 0.5s;
     padding: 15px 25px; 
 }
+
+
 
 /* Media Query for mobile screens */
 @media (max-width: 768px) {
@@ -196,9 +198,20 @@ nav a:hover {
     flex-direction: row;
     justify-content: space-between;
     margin-right: 10px; 
+    border-radius: 30px;
     font-family: 'Carlito', sans-serif;
-    color: #f5f1ea
+    color: inherit; 
+    cursor: pointer; 
+    transition: background-color 0.5s, border-radius 0.5s, padding 0.5s;
 }
+
+.project-big:hover{
+    text-decoration: none;
+    background-color: #181e29;
+    padding: 10px;
+}
+
+
 
 .proj-text-b{
     flex-direction: column;
@@ -262,6 +275,71 @@ nav a:hover {
 .experience-individual b {
     font-size: 150%;
 }
+
+
+.arrow {
+    display: inline-block;
+    margin-left: 10px;
+    transition: transform 0.3s ease; 
+}
+
+.show .arrow {
+    transform: rotate(180deg); 
+}
+
+.grid-container {
+    display: grid;
+    place-items: center; 
+    margin: 20px 0; 
+}
+
+.btn-primary {
+    background-color: #437975; 
+    border: none;
+    color: #f5f1ea; 
+    padding: 10px 90px;
+    font-family: 'Carlito', sans-serif;
+    font-size: 1.4rem;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, transform 0.3s;
+    width: 30%; 
+}
+
+.btn-primary:hover {
+    background-color: #f5f1ea;
+    color: #181e29;
+    transform: scale(1.05); 
+}
+
+
+/* Arrow styling */
+.arrow {
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+
+/* Collapsible section */
+.card-body {
+    background-color: #181e29; 
+    color: #f5f1ea; 
+    border: 1px solid #8c8092; 
+    border-radius: 5px; 
+    padding: 20px; 
+    font-family: 'Carlito', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 10px; 
+}
+
+@media (max-width: 768px) {
+    .card-body {
+        padding: 15px; 
+    }
+}
+
+
 
 /* Bottom styling */
 

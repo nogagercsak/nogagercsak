@@ -35,3 +35,11 @@ setTimeout(typeNextLetter, 100); // Adjust the typing speed (in milliseconds) he
 
 // Start the typing effect when the page loads
 typeNextLetter();
+
+
+// JavaScript to toggle 'show' class based on collapse state
+document.querySelector('[data-toggle="collapse"]').addEventListener('click', function () {
+    const target = document.querySelector(this.getAttribute('data-target'));
+    const isExpanded = target.classList.contains('show');
+    this.classList.toggle('show', !isExpanded);
+});
