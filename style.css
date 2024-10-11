@@ -220,10 +220,11 @@ body {
     font-family: 'Carlito', sans-serif;
     color: #f5f1ea;
     font-weight: bold;
-    font-size:60px;
+    font-size:50px;
  }
 
  .proj-pic-b{
+    padding-top: 3%;
     max-width: 10%;
     height: 10%;
  }
