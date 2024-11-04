@@ -41,6 +41,7 @@ body {
     font-weight: normal;
     margin-top: 10%;
     margin-bottom: 4%;
+    overflow-wrap: break-word;
 }
 
 .desc{
@@ -50,6 +51,7 @@ body {
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 0%;
+    overflow-wrap: break-word;
 }
 
 #socials{
@@ -75,6 +77,29 @@ body {
     height: auto;
 }
 
+/* Media Query for mobile screens */
+@media (max-width: 480px) {
+    #nameTitle {
+        font-size: 300%;
+        margin-top: 5%;
+        margin-bottom: 2%;
+    }
+    
+    .desc {
+        font-size: 120%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    
+    #socials {
+        padding-top: 2%;
+    }
+    
+    #gitHub, #insta, #linkedin {
+        width: 80px;
+    }
+}
+
 /*nav bar styling*/ 
 body {
     margin: 0;
@@ -96,10 +121,10 @@ body {
 .navbar-content a {
     color: #f5f1ea;
     text-decoration: none;
-    margin: 0 20px;  
-    font-size: 180%;
-    padding: 10px 20px; 
-    border-radius: 30px;
+    margin: 0 10px;  
+    font-size: 150%;
+    padding: 5px 10px; 
+    border-radius: 20px;
     transition: padding 0.5s; 
 }
 
@@ -107,7 +132,19 @@ body {
     background-color: #f5f1ea;
     color: #181e29;
     transition: 0.5s;
-    padding: 15px 25px; 
+    padding: 10px 15px; 
+}
+
+/* Media Query for mobile screens */
+@media (max-width: 768px) {
+    .navbar-content {
+        flex-wrap: wrap;
+    }
+    .navbar-content a {
+        margin: 5px;
+        font-size: 120%;
+        padding: 5px 10px;
+    }
 }
 
 
